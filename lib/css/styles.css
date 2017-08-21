@@ -450,7 +450,7 @@ template {
  /*roadtohire image placed in the content area as background*/
 
 body {
-  background: url('/Users/miguelrosas/Documents/road2hire/midterm/lib/img/r2h.jpeg');
+  background: url('lib/img/r2h.jpeg');
   width: 100%;
 
 }
