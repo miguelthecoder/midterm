@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Mid Term</title>
+	<link href="lib/css/styles.css" rel="stylesheet" type="text/css">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <script
+src="https://code.jquery.com/jquery-3.2.1.min.js"
+integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+crossorigin="anonymous"></script>
+  <script src="lib/javascript/script.js" type="text/javascript"></script>
+</head>
+<body>
+	<header>
+		<nav>
+			<ul class="nav">
+				<!-- <li style="list-style: none; display: inline"> -->
+					<!-- <div class="logo">
+						<a href="http://mrosas.road2hire.ninja/midterm">Home Page</a>
+					</div> -->
+				</li>
+				<li>
+					<a href="index.html">Home</a>
+				</li>
+				<li>
+					<a href="contact.html">Contact</a>
+				</li>
+				<li>
+					<a href="table.html">Table</a>
+				</li>
+				<li>
+					<a href="codepen.html">CodePen</a>
+				</li>
+        <div class="dropdown">
+        <li>
+					<a href="#" >Drop Down</a>
+            <div class="dropdown-content">
+              <ul>
+            <li>  <a href="#">item 1</a></li>
+            <li>  <a href="#">item 2</a></li>
+            <li>  <a href="#">item 3</a></li>
+              <ul>
+            </div>
+				</li>
+        <div>
+    </header>
+    <main>
+      <h1 id="title">2017 Road to Hire Midterm - Miguel</h1>
+     <div class="r2h" id="r2h" >
+     </div>
+     <form class="contact" action="index.html" method="post">
+     <fieldset>
+       <div class="forms">
+         <label>First Name: <input id="fname" name="fname" placeholder="First Name" type="text" required></label>
+         <label>Last Name: <input id="lname" name="lname" placeholder="Last Name" type="text"required></label>
+         <label>Email: <input id="email" name="email" placeholder="Email" type="email"required></label>
+         <label>Phone Number: <input id="Phone" placeholder="Phone number" type="Phone"></label>
+         <label> Pick a color from the Rainbow:
+         <select>
+           <option value="Red">Red</option>
+           <option value="Orange">Orange</option>
+           <option value="Yellow">Yellow</option>
+           <option value="Blue">Blue</option>
+           <option value="Indigo">Indigo</option>
+           <option value="Green">Green</option>
+           <option value="Violet">Violet</option>
+         </select>
+       </label>
+         <label>Comments:
+          <textarea form="usrform" name="comment" placeholder="Please enter your comments"></textarea>
+        </label>
+         <input type="submit" value="submit">
+       </div>
+  </form>
+  <script>
+    $("form").validate();
+  </script>
+    </main>
+    <footer>
+    </footer>
+  </body>
+  </html>
